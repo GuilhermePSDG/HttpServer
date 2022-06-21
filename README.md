@@ -1,6 +1,6 @@
 # HttpServer
 Implementação de um servidor http <br />
-Para testar a funcionalidade de multiplos hosts no localhost.<br />
+Para testar a funcionalidade de multiplos hosts no localhost, siga os passos a seguir..<br />
 1 - Abrir como administrador o arquivo 'hosts' no caminho 'Windows\System32\drivers\etc' <br />
 2 - Adicionar esta linha -> 127.0.0.1 teste.com no local indicado na print abaixo <br />
 3 - Rodar a aplicação e acessar teste.com:8080 <br />
