@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="www\localhost\Assets\img.png" />
+    <None Remove="www\localhost\index.html" />
+    <None Remove="www\localhost\style.css" />
+    <None Remove="www\teste\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="www\localhost\Assets\img.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="www\localhost\index.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="www\localhost\style.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="www\teste\index.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServidorHttp.DynamicPages\ServidorHttp.DynamicPages.csproj" />
+    <ProjectReference Include="..\ServidorHttp.StaticResources\ServidorHttp.StaticResources.csproj" />
+    <ProjectReference Include="..\ServidorHttp\ServidorHttp.csproj" />
+  </ItemGroup>
+
+</Project>

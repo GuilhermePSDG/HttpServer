@@ -1,0 +1,286 @@
+﻿[
+  {
+    "Extension": ".aac",
+    "Type": "audio/aac"
+  },
+  {
+    "Extension": ".abw",
+    "Type": "application/x-abiword"
+  },
+  {
+    "Extension": ".arc",
+    "Type": "application/x-freearc"
+  },
+  {
+    "Extension": ".avi",
+    "Type": "video/x-msvideo"
+  },
+  {
+    "Extension": ".azw",
+    "Type": "application/vnd.amazon.ebook"
+  },
+  {
+    "Extension": ".bin",
+    "Type": "application/octet-stream"
+  },
+  {
+    "Extension": ".bmp",
+    "Type": "image/bmp"
+  },
+  {
+    "Extension": ".bz",
+    "Type": "application/x-bzip"
+  },
+  {
+    "Extension": ".bz2",
+    "Type": "application/x-bzip2"
+  },
+  {
+    "Extension": ".csh",
+    "Type": "application/x-csh"
+  },
+  {
+    "Extension": ".css",
+    "Type": "text/css"
+  },
+  {
+    "Extension": ".csv",
+    "Type": "text/csv"
+  },
+  {
+    "Extension": ".doc",
+    "Type": "application/msword"
+  },
+  {
+    "Extension": ".docx",
+    "Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  {
+    "Extension": ".eot",
+    "Type": "application/vnd.ms-fontobject"
+  },
+  {
+    "Extension": ".epub",
+    "Type": "application/epub+zip"
+  },
+  {
+    "Extension": ".gz",
+    "Type": "application/gzip"
+  },
+  {
+    "Extension": ".gif",
+    "Type": "image/gif"
+  },
+  {
+    "Extension": ".html",
+    "Type": "text/html"
+  },
+  {
+    "Extension": ".ico",
+    "Type": "image/vnd.microsoft.icon"
+  },
+  {
+    "Extension": ".ics",
+    "Type": "text/calendar"
+  },
+  {
+    "Extension": ".jar",
+    "Type": "application/java-archive"
+  },
+  {
+    "Extension": ".jpeg",
+    "Type": "image/jpeg"
+  },
+  {
+    "Extension": ".jpg",
+    "Type": "image/jpegs"
+  },
+  {
+    "Extension": ".js",
+    "Type": "text/javascript"
+  },
+  {
+    "Extension": ".json",
+    "Type": "application/json"
+  },
+  {
+    "Extension": ".jsonld",
+    "Type": "application/ld+json"
+  },
+  {
+    "Extension": ".mid\n .midi",
+    "Type": "audio/midi audio/x-midi"
+  },
+  {
+    "Extension": ".mjs",
+    "Type": "text/javascript"
+  },
+  {
+    "Extension": ".mp3",
+    "Type": "audio/mpeg"
+  },
+  {
+    "Extension": ".mpeg",
+    "Type": "video/mpeg"
+  },
+  {
+    "Extension": ".mpkg",
+    "Type": "application/vnd.apple.installer+xml"
+  },
+  {
+    "Extension": ".odp",
+    "Type": "application/vnd.oasis.opendocument.presentation"
+  },
+  {
+    "Extension": ".ods",
+    "Type": "application/vnd.oasis.opendocument.spreadsheet"
+  },
+  {
+    "Extension": ".odt",
+    "Type": "application/vnd.oasis.opendocument.text"
+  },
+  {
+    "Extension": ".oga",
+    "Type": "audio/ogg"
+  },
+  {
+    "Extension": ".ogv",
+    "Type": "video/ogg"
+  },
+  {
+    "Extension": ".ogx",
+    "Type": "application/ogg"
+  },
+  {
+    "Extension": ".opus",
+    "Type": "audio/opus"
+  },
+  {
+    "Extension": ".otf",
+    "Type": "font/otf"
+  },
+  {
+    "Extension": ".png",
+    "Type": "image/png"
+  },
+  {
+    "Extension": ".pdf",
+    "Type": "application/pdf"
+  },
+  {
+    "Extension": ".php",
+    "Type": "application/x-httpd-php"
+  },
+  {
+    "Extension": ".ppt",
+    "Type": "application/vnd.ms-powerpoint"
+  },
+  {
+    "Extension": ".pptx",
+    "Type": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  },
+  {
+    "Extension": ".rar",
+    "Type": "application/vnd.rar"
+  },
+  {
+    "Extension": ".rtf",
+    "Type": "application/rtf"
+  },
+  {
+    "Extension": ".sh",
+    "Type": "application/x-sh"
+  },
+  {
+    "Extension": ".svg",
+    "Type": "image/svg+xml"
+  },
+  {
+    "Extension": ".swf",
+    "Type": "application/x-shockwave-flash"
+  },
+  {
+    "Extension": ".tar",
+    "Type": "application/x-tar"
+  },
+  {
+    "Extension": ".tif\n .tiff",
+    "Type": "image/tiff"
+  },
+  {
+    "Extension": ".ts",
+    "Type": "video/mp2t"
+  },
+  {
+    "Extension": ".ttf",
+    "Type": "font/ttf"
+  },
+  {
+    "Extension": ".txt",
+    "Type": "text/plain"
+  },
+  {
+    "Extension": ".vsd",
+    "Type": "application/vnd.visio"
+  },
+  {
+    "Extension": ".wav",
+    "Type": "audio/wav"
+  },
+  {
+    "Extension": ".weba",
+    "Type": "audio/webm"
+  },
+  {
+    "Extension": ".webm",
+    "Type": "video/webm"
+  },
+  {
+    "Extension": ".webp",
+    "Type": "image/webp"
+  },
+  {
+    "Extension": ".woff",
+    "Type": "font/woff"
+  },
+  {
+    "Extension": ".woff2",
+    "Type": "font/woff2"
+  },
+  {
+    "Extension": ".xhtml",
+    "Type": "application/xhtml+xml"
+  },
+  {
+    "Extension": ".xls",
+    "Type": "application/vnd.ms-excel"
+  },
+  {
+    "Extension": ".xlsx",
+    "Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  },
+  {
+    "Extension": ".xml",
+    "Type": "application/xml if not readable from casual users (RFC 3023, section 3)\n text/xml if readable from casual users (RFC 3023, section 3)"
+  },
+  {
+    "Extension": ".xul",
+    "Type": "application/vnd.mozilla.xul+xml"
+  },
+  {
+    "Extension": ".zip",
+    "Type": "application/zip"
+  },
+  {
+    "Extension": ".3gp",
+    "Type": "video/3gpp\n audio/3gpp if it doesn't contain video"
+  },
+  {
+    "Extension": ".3g2",
+    "Type": "video/3gpp2\n audio/3gpp2 if it doesn't contain video"
+  },
+  {
+    "Extension": ".7z",
+    "Type": "application/x-7z-compressed"
+  }
+]

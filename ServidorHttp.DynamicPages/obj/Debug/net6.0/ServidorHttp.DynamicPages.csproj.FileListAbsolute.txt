@@ -1,0 +1,12 @@
+C:\Users\0\source\repos\ServidorHttp\ServidorHttp.DynamicPages\bin\Debug\net6.0\ServidorHttp.DynamicPages.deps.json
+C:\Users\0\source\repos\ServidorHttp\ServidorHttp.DynamicPages\bin\Debug\net6.0\ServidorHttp.DynamicPages.dll
+C:\Users\0\source\repos\ServidorHttp\ServidorHttp.DynamicPages\bin\Debug\net6.0\ServidorHttp.DynamicPages.pdb
+C:\Users\0\source\repos\ServidorHttp\ServidorHttp.DynamicPages\obj\Debug\net6.0\ServidorHttp.DynamicPages.csproj.AssemblyReference.cache
+C:\Users\0\source\repos\ServidorHttp\ServidorHttp.DynamicPages\obj\Debug\net6.0\ServidorHttp.DynamicPages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\0\source\repos\ServidorHttp\ServidorHttp.DynamicPages\obj\Debug\net6.0\ServidorHttp.DynamicPages.AssemblyInfoInputs.cache
+C:\Users\0\source\repos\ServidorHttp\ServidorHttp.DynamicPages\obj\Debug\net6.0\ServidorHttp.DynamicPages.AssemblyInfo.cs
+C:\Users\0\source\repos\ServidorHttp\ServidorHttp.DynamicPages\obj\Debug\net6.0\ServidorHttp.DynamicPages.csproj.CoreCompileInputs.cache
+C:\Users\0\source\repos\ServidorHttp\ServidorHttp.DynamicPages\obj\Debug\net6.0\ServidorHttp.DynamicPages.dll
+C:\Users\0\source\repos\ServidorHttp\ServidorHttp.DynamicPages\obj\Debug\net6.0\refint\ServidorHttp.DynamicPages.dll
+C:\Users\0\source\repos\ServidorHttp\ServidorHttp.DynamicPages\obj\Debug\net6.0\ServidorHttp.DynamicPages.pdb
+C:\Users\0\source\repos\ServidorHttp\ServidorHttp.DynamicPages\obj\Debug\net6.0\ref\ServidorHttp.DynamicPages.dll

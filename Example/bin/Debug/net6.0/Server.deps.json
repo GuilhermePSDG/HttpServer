@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Server/1.0.0": {
+        "dependencies": {
+          "ServidorHttp": "1.0.0",
+          "ServidorHttp.DynamicPages": "1.0.0",
+          "ServidorHttp.StaticResources": "1.0.0"
+        },
+        "runtime": {
+          "Server.dll": {}
+        }
+      },
+      "ServidorHttp/1.0.0": {
+        "runtime": {
+          "ServidorHttp.dll": {}
+        }
+      },
+      "ServidorHttp.DynamicPages/1.0.0": {
+        "runtime": {
+          "ServidorHttp.DynamicPages.dll": {}
+        }
+      },
+      "ServidorHttp.StaticResources/1.0.0": {
+        "dependencies": {
+          "ServidorHttp": "1.0.0"
+        },
+        "runtime": {
+          "ServidorHttp.StaticResources.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServidorHttp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServidorHttp.DynamicPages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServidorHttp.StaticResources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
