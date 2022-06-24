@@ -6,9 +6,9 @@ public class HttpServer
     private TcpListener listener { get; }
     public List<IRequestResolver> Resolvers { get; }
     private int Port { get; set; }
-
+    
     public static IServerBuilder CreateBuilder() => new ServerBuilder();
-
+    
     internal HttpServer(List<IRequestResolver> resolvers, string Ip, int Port)
     {
         this.Resolvers = resolvers;
@@ -50,11 +50,14 @@ public class HttpServer
                   $"\n\tReponse Code : {response.Headers.StatusCode}" +
                   $"\n\tHas content : {(response.HasContent ? "yes" : "no")}");
                 await socket.SendAsync(response);
-                socket.Close();
             }
             catch(Exception ex)
             {
                 Console.WriteLine($"Error while trying to precess request, ex :{ex.Message}");
+            }
+            finally
+            {
+                socket.Close();
             }
         }
     }
@@ -64,7 +67,7 @@ public class HttpServer
         foreach(var resolver in Resolvers)
             if (await resolver.CanResolve(request))
                 return await resolver.Resolve(request);
-        return new Response(StatusCode.NOT_FOUND, "text/html");
+        return new Response(StatusCode.NOT_FOUND);
     }
     
 

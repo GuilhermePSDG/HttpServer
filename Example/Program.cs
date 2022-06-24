@@ -5,7 +5,7 @@ var builder = HttpServer.CreateBuilder();
 
 builder.UseStaticResource(opt =>
 {
-    opt.BasePath = @"C:\Users\0\source\repos\ServidorHttp\Server\www\";
+    opt.BasePath = @"C:\Users\0\source\repos\ServidorHttp\Example\www\";
     opt
     .UseDiferentsFoldersForDiferentHosts()
     .AddPathForHost("localhost", "localhost")

@@ -30,7 +30,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ServidorHttp.DynamicPages\ServidorHttp.DynamicPages.csproj" />
     <ProjectReference Include="..\ServidorHttp.StaticResources\ServidorHttp.StaticResources.csproj" />
     <ProjectReference Include="..\ServidorHttp\ServidorHttp.csproj" />
   </ItemGroup>

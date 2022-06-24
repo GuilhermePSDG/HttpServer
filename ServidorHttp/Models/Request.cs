@@ -10,10 +10,10 @@ public class Request
     //
     public readonly bool IsEmpty = false;
     public RequestHeaders Headers { get; }
-    public static Request Empty => new Request(true);
-    private Request(bool IsEmpty)
+    public static Request Empty => new Request();
+    private Request()
     {
-        this.IsEmpty = IsEmpty;
+        this.IsEmpty = true;
         Headers = new RequestHeaders(new List<string>());
         Method = Method.UNSET;
         Path = "";

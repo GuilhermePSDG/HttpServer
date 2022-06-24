@@ -14,6 +14,13 @@ public class ResponseHeaders : Headers
         this.Add("Content-Type", ContentType);
         this.Add("Content-Lenght", ContentLenght);
     }
+    public ResponseHeaders(StatusCode StatusCode)
+    {
+        this.StatusCode = StatusCode;
+        this._values = new();
+        this.Add("Server", ServerConfiguration.SERVER_NAME);
+        this.Add("Content-Lenght", 0);
+    }
     public override string ToString()
     {
         var builder = new StringBuilder();

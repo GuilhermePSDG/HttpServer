@@ -6,7 +6,6 @@ public class SinglePathParser : StaticResourcePathParser
         this.BasePath = BasePath;
     }
     public string BasePath { get; }
-
     public bool TryGetFileInfo(RequestHeaders headers, string RelativePath, out FileInfo fileInfo)
     {
         RelativePath = RelativePath == "/" ? "\\index.html" : RelativePath.Replace('/', '\\');

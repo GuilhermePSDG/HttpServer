@@ -5,13 +5,9 @@ public class StaticResourceResolver : IRequestResolver
 {
     public record SuportedType(string Extension, string Type);
 
-    private const string TextDefaultType = "text/html;charset=utf 8";
     public string SuportedTypesJsonPath = "SuportedTypes.json";
     public StaticResourcePathParser PathParser { get; }
     public Dictionary<string, string> SuportedTypes { get; }
-
-    public sbyte Priority { get; set; } = sbyte.MinValue;
-
     public StaticResourceResolver(StaticResourcePathParser pathParser)
     {
         PathParser = pathParser;
@@ -23,9 +19,9 @@ public class StaticResourceResolver : IRequestResolver
     public async Task<Response> Resolve(Request request)
     {
         if (!PathParser.TryGetFileInfo(request.Headers, request.Path, out var FileInfo) || !FileInfo.Exists)
-            return new Response(StatusCode.NOT_FOUND, TextDefaultType);
+            return new Response(StatusCode.NOT_FOUND);
         if (!SuportedTypes.TryGetValue(FileInfo.Extension, out var contentType))
-            return new Response(StatusCode.UNSUPORTED_TYPE, TextDefaultType);
+            return new Response(StatusCode.UNSUPORTED_TYPE);
         var data = await File.ReadAllBytesAsync(FileInfo.FullName);
         return new Response(data, StatusCode.OK, contentType);
     }

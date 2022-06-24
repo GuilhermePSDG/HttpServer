@@ -14,7 +14,7 @@ namespace ServidorHttp.StaticResources.Extensions
 
         private class StaticResourceBuilder : StaticResourceOptions, MultipleScopeBuilder
         {
-            public string BasePath { get; set; }
+            public string BasePath { get; set; } = Environment.CurrentDirectory;
             public StaticResourcePathParser? ParserChosed = null;
             public MultipleScopeBuilder UseDiferentsFoldersForDiferentHosts()
             {
@@ -37,8 +37,6 @@ namespace ServidorHttp.StaticResources.Extensions
             public MultipleScopeBuilder AddPathForHost(string HostName, string RelativePath);
         }
 
-
     }
-
 
 }
